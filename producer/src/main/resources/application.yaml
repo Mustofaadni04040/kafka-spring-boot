@@ -9,3 +9,7 @@ spring:
       properties:
         spring.json.add.type.headers: false
         spring.json.value.type: com.demo.producer.RiderLocation
+  cloud:
+    function:
+      definition: uppercase
+    function.web.path: /uppercase
